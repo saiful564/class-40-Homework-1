@@ -1,0 +1,213 @@
+.bg{
+    background-color: aliceblue;
+}
+
+.con{
+    margin-top: 120px;
+}
+img{
+    max-width: 100%;
+}
+
+.logo img {
+    width: 45px;
+    margin-right: 5px;
+}
+.logo h2 {
+    display: inline-block;
+    font-size: 24px;
+}
+.slider_section{
+    background: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg) no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+.slider_con h1 {
+    font-size: 52px;
+}
+.slider_con p {
+    font-size: 25px;
+}
+
+.single_count h1{
+    font-weight: bold;
+}
+.content_left{ 
+    margin-top: 100px;
+}
+.bg_colr{
+    background: #F7F9FF;
+}
+
+.single_potfulio {
+    height: 300px;
+    box-shadow: 0px 1px 11px 1px #ddd;
+}
+
+.content_pot{
+    width: 60%;
+    padding: 20px;
+   
+}
+.imge_pot {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 3px 0px 0px 3px;
+}
+.imge_pot img {
+    width: auto;
+    height: 100%;
+    max-width: inherit;
+    position: relative;
+    left: -64px;
+}
+
+.img_2 img{
+    width: 281px;
+}
+.img_3 img {
+    width: 281px;
+}
+.content_pot h3 {
+    font-size: 26px;
+}
+.single_portfolio{
+    position: relative;
+      
+  }
+  .single_portfolio a::after{
+      content: "" ;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+     transition: .5s;
+  }
+  .single_portfolio a:hover::after{
+      background-color:rgba(30, 22, 138, 0.644);
+  }
+
+  /* single_priging */
+
+  .single_priging {
+    box-shadow: 1px 1px 6px 1px #ddd;
+    padding: 44px 52px;
+}
+.single_priging h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.single_priging h5{}
+.single_priging ul {
+    padding-left: 0;
+    margin-bottom: 54px;
+}
+.single_priging ul li {
+    list-style: none;
+    padding: 15px 0;
+    font-size: 20px;
+    
+}
+.single_priging ul li span i {
+    width: 39px !important;
+    color: #6278DF;
+}
+.priging_button a {
+    padding: 12px 79px;
+}
+.priging_button a:hover{
+    background: #000;
+    color: #fff;
+    border:1px solid #000
+}
+
+.testmoneal_item{}
+.testmoneal_item span i {
+    font-size: 69px;
+    color: #ddd;
+}
+.about_info {
+    width: 300px;
+    margin: auto;
+}
+.about_info img {
+    width: 100px;
+    border-radius: 50%;
+}
+.about_detel {
+    text-align: left;
+    position: relative;
+    top: 19px;
+    right: 38px;
+}
+.testmoneal_item p {
+    font-size: 26px;
+}
+.about_detel p {
+    font-size: 16px;
+}
+.single_about{
+    margin-top: 50px;
+}
+.single_about .card img {
+    width: 112px;
+    margin-top: -50px;
+    margin-left: 21px;
+}
+.card-body a:hover{
+    background: #606060;
+    color: #fff;
+}
+.footer_section p {
+    font-size: 23px;
+}
+
+/* responsive */
+
+
+@media (max-width:992px) {
+     
+    .slider_con h1 {
+        font-size: 35px;
+    }
+    .single_priging h5 {
+        font-size: 17px;
+    }
+    .single_priging ul li {
+        font-size: 14px;
+    }
+    .haha{
+        margin-bottom: 20px;
+    }
+    .single_about {
+        margin-bottom: 50px;
+    }
+    .magic {
+        margin: 0 auto;
+        width: 40%;
+        display: inline-grid;
+    }
+
+   
+}
+@media (max-width:576px) {
+    body{
+        overflow: hidden;
+    }
+    .slider_con p {
+        font-size: 17px;
+        margin-top: -96px;
+    }
+
+    .slider_con h1 {
+        font-size: 25px;
+    }
+    .testmoneal_item h1 {
+        font-size: 30px;
+    }
+    .haha{
+        margin-bottom: 20px;
+    }
+ 
+}
